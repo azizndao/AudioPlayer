@@ -43,7 +43,7 @@ import io.musicplayer.util.newMainPendingIntent
 class NotificationComponent(private val context: Context, sessionToken: MediaSessionCompat.Token) :
     ServiceNotification(context, CHANNEL_INFO) {
     init {
-        setSmallIcon(R.drawable.ic_auxio_24)
+        setSmallIcon(R.drawable.ic_music_player_24)
         setCategory(NotificationCompat.CATEGORY_TRANSPORT)
         setShowWhen(false)
         setSilent(true)
