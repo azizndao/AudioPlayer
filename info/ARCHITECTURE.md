@@ -23,7 +23,7 @@ gradle projects.
 A full run-down of Auxio's current package structure as of the latest version is shown below.
 
 ```
-org.oxycblt.auxio  # Main UIs
+io.musicplayer  # Main UIs
 ├──.detail         # Album/Artist/Genre detail UIs
 │  └──.recycler    # RecyclerView components for detail UIs 
 ├──.home           # Home UI
@@ -200,7 +200,7 @@ data. More information can be found in the documentation for those datatypes.
 
 ## Package-by-package rundown
 
-#### `org.oxycblt.auxio`
+#### `io.musicplayer`
 This is the root package and contains the application instance and the landing UIs. This should be
 kept sparse with most other code being placed into a package.
 

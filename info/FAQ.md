@@ -2,7 +2,7 @@
 This FAQ will be continually updated as new changes and updates are made to Auxio.
 
 #### Where can I download Auxio?
-Auxio is available on the [F-Droid](https://f-droid.org/en/packages/org.oxycblt.auxio/) repository.
+Auxio is available on the [F-Droid](https://f-droid.org/en/packages/io.musicplayer/) repository.
 Auxio is not and will never be on the play store due to it being a proprietary and draconian platform.
 
 #### Why ExoPlayer?

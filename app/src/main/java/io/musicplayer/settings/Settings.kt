@@ -183,8 +183,7 @@ class Settings(private val context: Context, private val callback: Callback? = n
         get() = inner.getBoolean(context.getString(R.string.set_key_rewind_prev), true)
 
     /**
-     * Whether [org.oxycblt.auxio.playback.state.RepeatMode.TRACK] should pause when the track
-     * repeats
+     * Whether [io.musicplayer.playback.state.RepeatMode.TRACK] should pause when the track repeats
      */
     val pauseOnRepeat: Boolean
         get() = inner.getBoolean(context.getString(R.string.set_key_repeat_pause), false)

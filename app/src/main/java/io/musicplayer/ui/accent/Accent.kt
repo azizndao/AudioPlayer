@@ -142,7 +142,7 @@ class Accent private constructor(val index: Int) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                 ACCENT_THEMES.lastIndex
             } else {
-                5
+                2
             }
 
         /**

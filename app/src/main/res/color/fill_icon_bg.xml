@@ -6,9 +6,9 @@
     android:startY="0"
     android:type="linear">
     <item
-        android:color="#0D47A1"
+        android:color="#DC3D82"
         android:offset="0.0" />
     <item
-        android:color="#64B5F6"
+        android:color="#CA608E"
         android:offset="1.0" />
 </gradient>

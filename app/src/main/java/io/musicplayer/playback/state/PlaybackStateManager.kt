@@ -40,9 +40,9 @@ import kotlinx.coroutines.withContext
  *
  * This should ***NOT*** be used outside of the playback module.
  * - If you want to use the playback state in the UI, use
- * [org.oxycblt.auxio.playback.PlaybackViewModel] as it can withstand volatile UIs.
+ * [io.musicplayer.playback.PlaybackViewModel] as it can withstand volatile UIs.
  * - If you want to use the playback state with the ExoPlayer instance or system-side things, use
- * [org.oxycblt.auxio.playback.system.PlaybackService].
+ * [io.musicplayer.playback.system.PlaybackService].
  *
  * Internal consumers should usually use [Callback], however the component that manages the player
  * itself should instead operate as a [InternalPlayer].
