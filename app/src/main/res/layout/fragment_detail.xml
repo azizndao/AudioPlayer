@@ -7,7 +7,7 @@
     android:background="?attr/colorSurface"
     android:transitionGroup="true">
 
-    <org.oxycblt.auxio.detail.DetailAppBarLayout
+    <io.musicplayer.detail.DetailAppBarLayout
         android:id="@+id/detail_appbar"
         style="@style/Widget.Auxio.AppBarLayout"
         app:liftOnScroll="true"
@@ -19,9 +19,9 @@
             android:layout_height="wrap_content"
             app:navigationIcon="@drawable/ic_back_24" />
 
-    </org.oxycblt.auxio.detail.DetailAppBarLayout>
+    </io.musicplayer.detail.DetailAppBarLayout>
 
-    <org.oxycblt.auxio.ui.recycler.AuxioRecyclerView
+    <io.musicplayer.ui.recycler.AuxioRecyclerView
         android:id="@+id/detail_recycler"
         style="@style/Widget.Auxio.RecyclerView.Grid"
         android:layout_width="match_parent"

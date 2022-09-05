@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package io.musicplayer
 
 import android.content.Intent
 import android.os.Build
@@ -25,16 +25,16 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.WindowCompat
 import androidx.core.view.updatePadding
-import org.oxycblt.auxio.databinding.ActivityMainBinding
-import org.oxycblt.auxio.music.system.IndexerService
-import org.oxycblt.auxio.playback.PlaybackViewModel
-import org.oxycblt.auxio.playback.state.InternalPlayer
-import org.oxycblt.auxio.playback.system.PlaybackService
-import org.oxycblt.auxio.settings.Settings
-import org.oxycblt.auxio.util.androidViewModels
-import org.oxycblt.auxio.util.isNight
-import org.oxycblt.auxio.util.logD
-import org.oxycblt.auxio.util.systemBarInsetsCompat
+import io.musicplayer.databinding.ActivityMainBinding
+import io.musicplayer.music.system.IndexerService
+import io.musicplayer.playback.PlaybackViewModel
+import io.musicplayer.playback.state.InternalPlayer
+import io.musicplayer.playback.system.PlaybackService
+import io.musicplayer.settings.Settings
+import io.musicplayer.util.androidViewModels
+import io.musicplayer.util.isNight
+import io.musicplayer.util.logD
+import io.musicplayer.util.systemBarInsetsCompat
 
 /**
  * The single [AppCompatActivity] for Auxio.
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
         val action =
             when (intent.action) {
                 Intent.ACTION_VIEW -> InternalPlayer.Action.Open(intent.data ?: return false)
-                AuxioApp.INTENT_KEY_SHORTCUT_SHUFFLE -> {
+                MusicPlayerApp.INTENT_KEY_SHORTCUT_SHUFFLE -> {
                     InternalPlayer.Action.ShuffleAll
                 }
                 else -> return false

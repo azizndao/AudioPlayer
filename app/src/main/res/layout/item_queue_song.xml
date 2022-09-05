@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground">
 
-            <org.oxycblt.auxio.image.ImageGroup
+            <io.musicplayer.image.ImageGroup
                 android:id="@+id/song_album_cover"
                 style="@style/Widget.Auxio.Image.Small"
                 android:layout_margin="@dimen/spacing_medium"

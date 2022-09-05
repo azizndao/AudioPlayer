@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package org.oxycblt.auxio
+package io.musicplayer
 
 import android.app.Application
 import android.content.Intent
@@ -25,13 +25,13 @@ import androidx.core.graphics.drawable.IconCompat
 import coil.ImageLoader
 import coil.ImageLoaderFactory
 import coil.request.CachePolicy
-import org.oxycblt.auxio.image.AlbumCoverFetcher
-import org.oxycblt.auxio.image.ArtistImageFetcher
-import org.oxycblt.auxio.image.CrossfadeTransitionFactory
-import org.oxycblt.auxio.image.GenreImageFetcher
-import org.oxycblt.auxio.image.MusicKeyer
+import io.musicplayer.image.AlbumCoverFetcher
+import io.musicplayer.image.ArtistImageFetcher
+import io.musicplayer.image.CrossfadeTransitionFactory
+import io.musicplayer.image.GenreImageFetcher
+import io.musicplayer.image.MusicKeyer
 
-class AuxioApp : Application(), ImageLoaderFactory {
+class MusicPlayerApp : Application(), ImageLoaderFactory {
     override fun onCreate() {
         super.onCreate()
 

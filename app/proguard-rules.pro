@@ -20,8 +20,8 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class org.oxycblt.auxio.AuxioApp
--keep class org.oxycblt.auxio.settings.SettingsListFragment
+-keep class io.musicplayer.MusicPlayerApp
+-keep class io.musicplayer.settings.SettingsListFragment
 
 # Free software does not obsfucate. Also it's easier to debug stack traces.
 -dontobfuscate

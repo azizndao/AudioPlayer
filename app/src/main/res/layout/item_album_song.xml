@@ -17,7 +17,7 @@
     with us only overlaying the track number (and other elements) onto it.
     -->
 
-    <org.oxycblt.auxio.image.ImageGroup
+    <io.musicplayer.image.ImageGroup
         android:id="@+id/song_track_bg"
         style="@style/Widget.Auxio.Image.Small"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="16" />
 
-    </org.oxycblt.auxio.image.ImageGroup>
+    </io.musicplayer.image.ImageGroup>
 
 
     <TextView

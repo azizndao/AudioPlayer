@@ -13,7 +13,7 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="org.oxycblt.auxio.ui.BottomSheetContentBehavior"
+        app:layout_behavior="io.musicplayer.ui.BottomSheetContentBehavior"
         app:navGraph="@navigation/nav_explore"
         tools:layout="@layout/fragment_home" />
 
@@ -22,20 +22,20 @@
         style="@style/Widget.Auxio.DisableDropShadows"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="org.oxycblt.auxio.playback.PlaybackSheetBehavior">
+        app:layout_behavior="io.musicplayer.playback.PlaybackSheetBehavior">
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/playback_bar_fragment"
-            android:name="org.oxycblt.auxio.playback.PlaybackBarFragment"
+            android:name="io.musicplayer.playback.PlaybackBarFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/playback_panel_fragment"
-            android:name="org.oxycblt.auxio.playback.PlaybackPanelFragment"
+            android:name="io.musicplayer.playback.PlaybackPanelFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_behavior="org.oxycblt.auxio.ui.BottomSheetContentBehavior" />
+            app:layout_behavior="io.musicplayer.ui.BottomSheetContentBehavior" />
 
         <LinearLayout
             android:id="@+id/queue_sheet"
@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            app:layout_behavior="org.oxycblt.auxio.playback.queue.QueueSheetBehavior">
+            app:layout_behavior="io.musicplayer.playback.queue.QueueSheetBehavior">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/handle_wrapper"
@@ -76,7 +76,7 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/queue_fragment"
-                android:name="org.oxycblt.auxio.playback.queue.QueueFragment"
+                android:name="io.musicplayer.playback.queue.QueueFragment"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1" />

@@ -8,7 +8,7 @@
     android:background="?attr/colorSurface"
     android:transitionGroup="true">
 
-    <org.oxycblt.auxio.ui.AuxioAppBarLayout
+    <io.musicplayer.ui.AuxioAppBarLayout
         android:id="@+id/home_appbar"
         style="@style/Widget.Auxio.AppBarLayout"
         android:fitsSystemWindows="true">
@@ -30,7 +30,7 @@
             app:tabGravity="start"
             app:tabMode="scrollable" />
 
-    </org.oxycblt.auxio.ui.AuxioAppBarLayout>
+    </io.musicplayer.ui.AuxioAppBarLayout>
 
 
     <FrameLayout
@@ -49,7 +49,7 @@
             app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
             tools:layout="@layout/fragment_home_list" />
 
-        <org.oxycblt.auxio.home.EdgeFrameLayout
+        <io.musicplayer.home.EdgeFrameLayout
             android:id="@+id/home_indexing_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -107,11 +107,11 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-        </org.oxycblt.auxio.home.EdgeFrameLayout>
+        </io.musicplayer.home.EdgeFrameLayout>
 
     </FrameLayout>
 
-    <org.oxycblt.auxio.home.EdgeFrameLayout
+    <io.musicplayer.home.EdgeFrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_anchor="@id/home_content"
@@ -126,6 +126,6 @@
             android:contentDescription="@string/desc_shuffle_all"
             android:src="@drawable/ic_shuffle_off_24" />
 
-    </org.oxycblt.auxio.home.EdgeFrameLayout>
+    </io.musicplayer.home.EdgeFrameLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Use dynamic colors since that's assumed to be the setting used. -->
-    <style name="Theme.Auxio.App" parent="Theme.Auxio.Base" />
+    <style name="Theme.App.App" parent="Theme.App.Base" />
 
-    <style name="Theme.Auxio.Widget" parent="@android:style/Theme.DeviceDefault.DayNight">
+    <style name="Theme.App.Widget" parent="@android:style/Theme.DeviceDefault.DayNight">
         <item name="colorPrimary">?android:attr/colorAccent</item>
         <item name="colorOnPrimary">?attr/colorSurface</item>
 

@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/artist_detail_fragment"
-        android:name="org.oxycblt.auxio.detail.ArtistDetailFragment"
+        android:name="io.musicplayer.detail.ArtistDetailFragment"
         android:label="ArtistDetailFragment"
         tools:layout="@layout/fragment_detail">
         <argument
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/album_detail_fragment"
-        android:name="org.oxycblt.auxio.detail.AlbumDetailFragment"
+        android:name="io.musicplayer.detail.AlbumDetailFragment"
         android:label="AlbumDetailFragment"
         tools:layout="@layout/fragment_detail">
         <argument
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/genre_detail_fragment"
-        android:name="org.oxycblt.auxio.detail.GenreDetailFragment"
+        android:name="io.musicplayer.detail.GenreDetailFragment"
         android:label="GenreDetailFragment"
         tools:layout="@layout/fragment_detail">
         <argument
@@ -58,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/search_fragment"
-        android:name="org.oxycblt.auxio.search.SearchFragment"
+        android:name="io.musicplayer.search.SearchFragment"
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search">
         <action
@@ -73,7 +73,7 @@
     </fragment>
     <fragment
         android:id="@+id/home_fragment"
-        android:name="org.oxycblt.auxio.home.HomeFragment"
+        android:name="io.musicplayer.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action

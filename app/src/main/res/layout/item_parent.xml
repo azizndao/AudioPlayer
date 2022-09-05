@@ -10,7 +10,7 @@
     android:paddingEnd="@dimen/spacing_mid_medium"
     android:paddingBottom="@dimen/spacing_medium">
 
-    <org.oxycblt.auxio.image.ImageGroup
+    <io.musicplayer.image.ImageGroup
         android:id="@+id/parent_image"
         style="@style/Widget.Auxio.Image.Medium"
         app:layout_constraintBottom_toBottomOf="parent"

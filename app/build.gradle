@@ -7,7 +7,7 @@ plugins {
 
 android {
     compileSdk 33
-    namespace "io.github.azizndao.musicplayer"
+    namespace "io.musicplayer"
 
     defaultConfig {
         applicationId namespace
@@ -60,6 +60,8 @@ afterEvaluate {
 }
 
 dependencies {
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"

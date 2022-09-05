@@ -21,7 +21,7 @@
         <item name="android:paddingEnd">0dp</item>
     </style>
 
-    <style name="Theme.Auxio.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+    <style name="Theme.App.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="android:checkedTextViewStyle">@style/Widget.Auxio.Dialog.CheckedTextView</item>
     </style>
 

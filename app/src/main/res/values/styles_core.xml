@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Master parent theme -->
-    <style name="Theme.Auxio" parent="Theme.Material3.DynamicColors.DayNight" />
+    <style name="Theme.App" parent="Theme.Material3.DynamicColors.DayNight" />
     <!-- Adds nicer selector attributes not supported on lollipop -->
-    <style name="Theme.Auxio.V23" parent="Theme.Auxio" />
+    <style name="Theme.App.V23" parent="Theme.App" />
     <!-- Handles edge-to-edge on other styles variants -->
-    <style name="Theme.Auxio.V27" parent="Theme.Auxio.V23">
+    <style name="Theme.App.V27" parent="Theme.App.V23">
         <item name="android:statusBarColor">@color/chrome_translucent</item>
         <item name="android:navigationBarColor">@color/chrome_translucent</item>
     </style>
     <!-- Adds fully transparent system bars -->
-    <style name="Theme.Auxio.V29" parent="Theme.Auxio.V27" />
+    <style name="Theme.App.V29" parent="Theme.App.V27" />
 
     <!-- Base theme -->
-    <style name="Theme.Auxio.Base" parent="Theme.Auxio.V29">
+    <style name="Theme.App.Base" parent="Theme.App.V29">
         <!-- Material configuration -->
         <item name="colorOutline">@color/overlay_stroke</item>
         <item name="toolbarStyle">@style/Widget.Auxio.Toolbar</item>
-        <item name="materialAlertDialogTheme">@style/Theme.Auxio.Dialog</item>
+        <item name="materialAlertDialogTheme">@style/Theme.App.Dialog</item>
         <item name="sliderStyle">@style/Widget.Auxio.Slider</item>
         <item name="linearProgressIndicatorStyle">@style/Widget.Auxio.LinearProgressIndicator</item>
 
@@ -60,11 +60,11 @@
     </style>
 
     <!-- Make sure blue is the default style instead of material purple -->
-    <style name="Theme.Auxio.App" parent="@style/Theme.Auxio.Blue" />
+    <style name="Theme.App.App" parent="@style/Theme.App.Blue" />
 
     <!--
     Theming widgets is technically possible below Android 12, but I *really* don't care enough
     to bother with it.
     -->
-    <style name="Theme.Auxio.Widget" parent="@style/Theme.Auxio.Blue" />
+    <style name="Theme.App.Widget" parent="@style/Theme.App.Blue" />
 </resources>

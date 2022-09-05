@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:padding="@dimen/spacing_medium">
 
-    <org.oxycblt.auxio.image.StyledImageView
+    <io.musicplayer.image.StyledImageView
         android:id="@+id/disc_item"
         style="@style/Widget.Auxio.Image.Small"
         android:scaleType="matrix"
