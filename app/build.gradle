@@ -7,7 +7,7 @@ plugins {
 
 android {
     compileSdk 33
-    namespace "org.oxycblt.auxio"
+    namespace "io.github.azizndao.musicplayer"
 
     defaultConfig {
         applicationId namespace
@@ -70,7 +70,7 @@ dependencies {
 
     // General
     // 1.4.0 is used in order to avoid a ripple bug in material components
-    implementation "androidx.appcompat:appcompat:1.4.0"
+    implementation "androidx.appcompat:appcompat:1.5.0"
     implementation "androidx.core:core-ktx:1.8.0"
     implementation "androidx.activity:activity-ktx:1.6.0-rc01"
     implementation "androidx.fragment:fragment-ktx:1.5.2"
@@ -107,10 +107,10 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["extension-*.aar"])
 
     // Image loading
-    implementation "io.coil-kt:coil:2.1.0"
+    implementation "io.coil-kt:coil:2.2.0"
 
     // Material
-    implementation "com.google.android.material:material:1.7.0-alpha02"
+    implementation "com.google.android.material:material:1.8.0-alpha01"
 
     // LeakCanary
     debugImplementation "com.squareup.leakcanary:leakcanary-android:2.9.1"

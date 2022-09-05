@@ -17,6 +17,7 @@
  
 package org.oxycblt.auxio.playback.system
 
+// import com.google.android.exoplayer2.ext.flac.LibflacAudioRenderer
 import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -35,7 +36,6 @@ import com.google.android.exoplayer2.Tracks
 import com.google.android.exoplayer2.audio.AudioAttributes
 import com.google.android.exoplayer2.audio.AudioCapabilities
 import com.google.android.exoplayer2.audio.MediaCodecAudioRenderer
-import com.google.android.exoplayer2.ext.flac.LibflacAudioRenderer
 import com.google.android.exoplayer2.extractor.DefaultExtractorsFactory
 import com.google.android.exoplayer2.mediacodec.MediaCodecSelector
 import com.google.android.exoplayer2.source.DefaultMediaSourceFactory
@@ -124,7 +124,7 @@ class PlaybackService :
                     audioListener,
                     AudioCapabilities.DEFAULT_AUDIO_CAPABILITIES,
                     replayGainProcessor),
-                LibflacAudioRenderer(handler, audioListener, replayGainProcessor))
+                /*LibflacAudioRenderer(handler, audioListener, replayGainProcessor)*/ )
         }
 
         // Enable constant bitrate seeking so that certain MP3s/AACs are seekable
