@@ -20,16 +20,8 @@ package io.musicplayer.playback
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import io.musicplayer.music.Album
-import io.musicplayer.music.Artist
-import io.musicplayer.music.Genre
-import io.musicplayer.music.MusicParent
-import io.musicplayer.music.Song
-import io.musicplayer.playback.state.InternalPlayer
-import io.musicplayer.playback.state.PlaybackMode
-import io.musicplayer.playback.state.PlaybackStateDatabase
-import io.musicplayer.playback.state.PlaybackStateManager
-import io.musicplayer.playback.state.RepeatMode
+import io.musicplayer.music.*
+import io.musicplayer.playback.state.*
 import io.musicplayer.settings.Settings
 import io.musicplayer.util.application
 import io.musicplayer.util.dsToMs
@@ -53,21 +45,25 @@ class PlaybackViewModel(application: Application) :
     private val playbackManager = PlaybackStateManager.getInstance()
 
     private val _song = MutableStateFlow<Song?>(null)
+
     /** The current song. */
     val song: StateFlow<Song?>
         get() = _song
     private val _parent = MutableStateFlow<MusicParent?>(null)
+
     /** The current model that is being played from, such as an [Album] or [Artist] */
     val parent: StateFlow<MusicParent?> = _parent
     private val _isPlaying = MutableStateFlow(false)
     val isPlaying: StateFlow<Boolean>
         get() = _isPlaying
     private val _positionDs = MutableStateFlow(0L)
+
     /** The current playback position, in *deci-seconds* */
     val positionDs: StateFlow<Long>
         get() = _positionDs
 
     private val _repeatMode = MutableStateFlow(RepeatMode.NONE)
+
     /** The current repeat mode, see [RepeatMode] for more information */
     val repeatMode: StateFlow<RepeatMode>
         get() = _repeatMode

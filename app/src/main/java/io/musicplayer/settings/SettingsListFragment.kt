@@ -118,16 +118,14 @@ class SettingsListFragment : PreferenceFragmentCompat() {
         val context = requireContext()
 
         when (preference.key) {
-            context.getString(R.string.set_key_save_state) -> {
+            context.getString(R.string.set_key_save_state) ->
                 playbackModel.savePlaybackState {
                     this.context?.showToast(R.string.lbl_state_saved)
                 }
-            }
-            context.getString(R.string.set_key_wipe_state) -> {
+            context.getString(R.string.set_key_wipe_state) ->
                 playbackModel.wipePlaybackState {
                     this.context?.showToast(R.string.lbl_state_wiped)
                 }
-            }
             context.getString(R.string.set_key_restore_state) ->
                 playbackModel.tryRestorePlaybackState { restored ->
                     if (restored) {
@@ -136,9 +134,7 @@ class SettingsListFragment : PreferenceFragmentCompat() {
                         this.context?.showToast(R.string.err_did_not_restore)
                     }
                 }
-            context.getString(R.string.set_key_reindex) -> {
-                musicModel.reindex()
-            }
+            context.getString(R.string.set_key_reindex) -> musicModel.reindex()
             else -> return super.onPreferenceTreeClick(preference)
         }
 
@@ -157,17 +153,15 @@ class SettingsListFragment : PreferenceFragmentCompat() {
         }
 
         when (preference.key) {
-            context.getString(R.string.set_key_theme) -> {
+            context.getString(R.string.set_key_theme) ->
                 preference.onPreferenceChangeListener =
                     Preference.OnPreferenceChangeListener { _, value ->
                         AppCompatDelegate.setDefaultNightMode(value as Int)
                         true
                     }
-            }
-            context.getString(R.string.set_key_accent) -> {
+            context.getString(R.string.set_key_accent) ->
                 preference.summary = context.getString(settings.accent.name)
-            }
-            context.getString(R.string.set_key_black_theme) -> {
+            context.getString(R.string.set_key_black_theme) ->
                 preference.onPreferenceChangeListener =
                     Preference.OnPreferenceChangeListener { _, _ ->
                         if (context.isNight) {
@@ -176,15 +170,13 @@ class SettingsListFragment : PreferenceFragmentCompat() {
 
                         true
                     }
-            }
             context.getString(R.string.set_key_show_covers),
-            context.getString(R.string.set_key_quality_covers) -> {
+            context.getString(R.string.set_key_quality_covers) ->
                 preference.onPreferenceChangeListener =
                     Preference.OnPreferenceChangeListener { _, _ ->
                         Coil.imageLoader(context).memoryCache?.clear()
                         true
                     }
-            }
         }
     }
 

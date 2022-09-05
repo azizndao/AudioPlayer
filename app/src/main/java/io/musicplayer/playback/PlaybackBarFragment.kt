@@ -25,10 +25,10 @@ import io.musicplayer.MainNavigationAction
 import io.musicplayer.NavigationViewModel
 import io.musicplayer.R
 import io.musicplayer.databinding.FragmentPlaybackBarBinding
+import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.music.Song
 import io.musicplayer.playback.state.RepeatMode
 import io.musicplayer.settings.Settings
-import io.musicplayer.ui.fragment.ViewBindingFragment
 import io.musicplayer.util.androidActivityViewModels
 import io.musicplayer.util.collectImmediately
 import io.musicplayer.util.getAttrColorCompat

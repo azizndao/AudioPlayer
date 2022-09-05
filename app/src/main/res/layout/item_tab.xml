@@ -22,13 +22,13 @@
         android:focusable="false"
         android:paddingStart="@dimen/spacing_medium"
         android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
+        android:textAppearance="@style/TextAppearance_App.BodyLarge"
         tools:ignore="RtlSymmetry,contentDescription"
         tools:text="Artists" />
 
     <Button
         android:id="@+id/tab_drag_handle"
-        style="@style/Widget.Auxio.Button.Icon.Small"
+        style="@style/Widget.App.Button.Icon.Small"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/spacing_mid_medium"

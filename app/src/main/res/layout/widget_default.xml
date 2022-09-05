@@ -18,7 +18,7 @@
         android:tint="?attr/colorPrimary" />
 
     <android.widget.TextView
-        style="@style/Widget.Auxio.TextView.Primary.AppWidget"
+        style="@style/Widget.App.TextView.Primary.AppWidget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

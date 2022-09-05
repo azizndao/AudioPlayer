@@ -9,7 +9,7 @@
 
     <io.musicplayer.image.StyledImageView
         android:id="@+id/detail_cover"
-        style="@style/Widget.Auxio.Image.MidHuge"
+        style="@style/Widget.App.Image.MidHuge"
         app:layout_constraintDimensionRatio="1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,7 +21,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_medium"
-        android:textAppearance="@style/TextAppearance.Auxio.LabelMedium"
+        android:textAppearance="@style/TextAppearance_App.LabelMedium"
         android:textColor="?attr/colorSecondary"
         app:layout_constraintBottom_toTopOf="@+id/detail_name"
         app:layout_constraintStart_toEndOf="@+id/detail_cover"
@@ -31,7 +31,7 @@
 
     <TextView
         android:id="@+id/detail_name"
-        style="@style/Widget.Auxio.TextView.Detail"
+        style="@style/Widget.App.TextView.Detail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_medium"
@@ -47,7 +47,7 @@
 
     <TextView
         android:id="@+id/detail_subhead"
-        style="@style/Widget.Auxio.TextView.Secondary"
+        style="@style/Widget.App.TextView.Secondary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_medium"
@@ -62,7 +62,7 @@
 
     <TextView
         android:id="@+id/detail_info"
-        style="@style/Widget.Auxio.TextView.Secondary"
+        style="@style/Widget.App.TextView.Secondary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_medium"
@@ -75,7 +75,7 @@
 
     <Button
         android:id="@+id/detail_play_button"
-        style="@style/Widget.Auxio.Button.Secondary"
+        style="@style/Widget.App.Button.Secondary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_medium"
@@ -90,7 +90,7 @@
 
     <Button
         android:id="@+id/detail_shuffle_button"
-        style="@style/Widget.Auxio.Button.Primary"
+        style="@style/Widget.App.Button.Primary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_small"

@@ -21,11 +21,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import io.musicplayer.R
 import io.musicplayer.home.tabs.Tab
-import io.musicplayer.music.Album
-import io.musicplayer.music.Artist
-import io.musicplayer.music.Genre
-import io.musicplayer.music.MusicStore
-import io.musicplayer.music.Song
+import io.musicplayer.music.*
 import io.musicplayer.settings.Settings
 import io.musicplayer.ui.DisplayMode
 import io.musicplayer.ui.Sort

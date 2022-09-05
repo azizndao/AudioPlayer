@@ -31,12 +31,12 @@ import com.google.android.material.transition.MaterialFadeThrough
 import io.musicplayer.BuildConfig
 import io.musicplayer.R
 import io.musicplayer.databinding.FragmentAboutBinding
+import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.home.HomeViewModel
 import io.musicplayer.music.Album
 import io.musicplayer.music.Artist
 import io.musicplayer.music.Genre
 import io.musicplayer.music.Song
-import io.musicplayer.ui.fragment.ViewBindingFragment
 import io.musicplayer.util.androidActivityViewModels
 import io.musicplayer.util.collectImmediately
 import io.musicplayer.util.formatDurationMs

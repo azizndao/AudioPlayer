@@ -8,9 +8,9 @@
     android:orientation="vertical"
     android:transitionGroup="true">
 
-    <io.musicplayer.ui.AuxioAppBarLayout
+    <io.musicplayer.ui.CustomAppBarLayout
         android:id="@+id/settings_appbar"
-        style="@style/Widget.Auxio.AppBarLayout"
+        style="@style/Widget.App.AppBarLayout"
         android:clickable="true"
         android:focusable="true"
         app:liftOnScroll="true">
@@ -22,7 +22,7 @@
             app:navigationIcon="@drawable/ic_back_24"
             app:title="@string/set_title" />
 
-    </io.musicplayer.ui.AuxioAppBarLayout>
+    </io.musicplayer.ui.CustomAppBarLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/settings_list_fragment"

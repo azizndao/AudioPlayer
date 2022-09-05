@@ -85,8 +85,8 @@ class AlbumDetailAdapter(private val listener: Listener) :
     companion object {
         private val DIFFER =
             object : SimpleItemCallback<Item>() {
-                override fun areItemsTheSame(oldItem: Item, newItem: Item): Boolean {
-                    return when {
+                override fun areItemsTheSame(oldItem: Item, newItem: Item): Boolean =
+                    when {
                         oldItem is Album && newItem is Album ->
                             AlbumDetailViewHolder.DIFFER.areItemsTheSame(oldItem, newItem)
                         oldItem is DiscHeader && newItem is DiscHeader ->
@@ -95,7 +95,6 @@ class AlbumDetailAdapter(private val listener: Listener) :
                             AlbumSongViewHolder.DIFFER.areItemsTheSame(oldItem, newItem)
                         else -> DetailAdapter.DIFFER.areItemsTheSame(oldItem, newItem)
                     }
-                }
             }
     }
 

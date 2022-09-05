@@ -25,11 +25,7 @@ import androidx.core.graphics.drawable.IconCompat
 import coil.ImageLoader
 import coil.ImageLoaderFactory
 import coil.request.CachePolicy
-import io.musicplayer.image.AlbumCoverFetcher
-import io.musicplayer.image.ArtistImageFetcher
-import io.musicplayer.image.CrossfadeTransitionFactory
-import io.musicplayer.image.GenreImageFetcher
-import io.musicplayer.image.MusicKeyer
+import io.musicplayer.image.*
 
 class MusicPlayerApp : Application(), ImageLoaderFactory {
     override fun onCreate() {

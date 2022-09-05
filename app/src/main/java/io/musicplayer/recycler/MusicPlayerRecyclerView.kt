@@ -28,7 +28,7 @@ import androidx.recyclerview.widget.RecyclerView
 import io.musicplayer.util.systemBarInsetsCompat
 
 /** A [RecyclerView] that enables some extra functionality for Auxio's use-case. */
-open class AuxioRecyclerView
+open class MusicPlayerRecyclerView
 @JvmOverloads
 constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr: Int = 0) :
     RecyclerView(context, attrs, defStyleAttr) {

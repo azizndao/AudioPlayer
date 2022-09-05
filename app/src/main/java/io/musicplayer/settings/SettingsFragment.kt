@@ -23,7 +23,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.transition.MaterialFadeThrough
 import io.musicplayer.databinding.FragmentSettingsBinding
-import io.musicplayer.ui.fragment.ViewBindingFragment
+import io.musicplayer.fragment.ViewBindingFragment
 
 /**
  * A container [Fragment] for the settings menu.

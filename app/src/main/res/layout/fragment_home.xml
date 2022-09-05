@@ -8,9 +8,9 @@
     android:background="?attr/colorSurface"
     android:transitionGroup="true">
 
-    <io.musicplayer.ui.AuxioAppBarLayout
+    <io.musicplayer.ui.CustomAppBarLayout
         android:id="@+id/home_appbar"
-        style="@style/Widget.Auxio.AppBarLayout"
+        style="@style/Widget.App.AppBarLayout"
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.MaterialToolbar
@@ -30,7 +30,7 @@
             app:tabGravity="start"
             app:tabMode="scrollable" />
 
-    </io.musicplayer.ui.AuxioAppBarLayout>
+    </io.musicplayer.ui.CustomAppBarLayout>
 
 
     <FrameLayout
@@ -74,7 +74,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="@dimen/spacing_medium"
                         android:gravity="center"
-                        android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
+                        android:textAppearance="@style/TextAppearance_App.BodyLarge"
                         app:layout_constraintBottom_toTopOf="@+id/home_indexing_action"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_chainStyle="packed"
@@ -119,7 +119,7 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/home_fab"
-            style="@style/Widget.Auxio.FloatingActionButton.Adaptive"
+            style="@style/Widget.App.FloatingActionButton.Adaptive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/spacing_medium"

@@ -9,7 +9,7 @@
 
     <io.musicplayer.detail.DetailAppBarLayout
         android:id="@+id/detail_appbar"
-        style="@style/Widget.Auxio.AppBarLayout"
+        style="@style/Widget.App.AppBarLayout"
         app:liftOnScroll="true"
         app:liftOnScrollTargetViewId="@id/detail_recycler">
 
@@ -21,9 +21,9 @@
 
     </io.musicplayer.detail.DetailAppBarLayout>
 
-    <io.musicplayer.ui.recycler.AuxioRecyclerView
+    <io.musicplayer.ui.recycler.MusicPlayerRecyclerView
         android:id="@+id/detail_recycler"
-        style="@style/Widget.Auxio.RecyclerView.Grid"
+        style="@style/Widget.App.RecyclerView.Grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"

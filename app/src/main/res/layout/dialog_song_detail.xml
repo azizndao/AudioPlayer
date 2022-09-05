@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.core.widget.NestedScrollView
-        style="@style/Widget.Auxio.Dialog.NestedScrollView"
+        style="@style/Widget.App.Dialog.NestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

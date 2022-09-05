@@ -26,20 +26,14 @@ import androidx.recyclerview.widget.RecyclerView
 import io.musicplayer.IntegerTable
 import io.musicplayer.databinding.ItemSortHeaderBinding
 import io.musicplayer.detail.SortHeader
-import io.musicplayer.ui.recycler.AuxioRecyclerView
-import io.musicplayer.ui.recycler.Header
-import io.musicplayer.ui.recycler.HeaderViewHolder
-import io.musicplayer.ui.recycler.IndicatorAdapter
-import io.musicplayer.ui.recycler.Item
-import io.musicplayer.ui.recycler.MenuItemListener
-import io.musicplayer.ui.recycler.SimpleItemCallback
+import io.musicplayer.ui.recycler.*
 import io.musicplayer.util.context
 import io.musicplayer.util.inflater
 
 abstract class DetailAdapter<L : DetailAdapter.Listener>(
     private val listener: L,
     diffCallback: DiffUtil.ItemCallback<Item>
-) : IndicatorAdapter<RecyclerView.ViewHolder>(), AuxioRecyclerView.SpanSizeLookup {
+) : IndicatorAdapter<RecyclerView.ViewHolder>(), MusicPlayerRecyclerView.SpanSizeLookup {
     private var isPlaying = false
 
     @Suppress("LeakingThis") override fun getItemCount() = differ.currentList.size
@@ -88,9 +82,7 @@ abstract class DetailAdapter<L : DetailAdapter.Listener>(
     override val currentList: List<Item>
         get() = differ.currentList
 
-    fun submitList(list: List<Item>) {
-        differ.submitList(list)
-    }
+    fun submitList(list: List<Item>) = differ.submitList(list)
 
     companion object {
         val DIFFER =

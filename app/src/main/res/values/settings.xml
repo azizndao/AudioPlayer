@@ -2,49 +2,49 @@
 <resources>
     <bool name="enable_theme_settings">true</bool>
 
-    <!-- Note: The old way of naming keys was to prefix them with KEY_. Now it's to prefix them with auxio_. -->
+    <!-- Note: The old way of naming keys was to prefix them with KEY_. Now it's to prefix them with music_player_. -->
     <string name="set_key_theme" translatable="false">KEY_THEME2</string>
     <string name="set_key_black_theme" translatable="false">KEY_BLACK_THEME</string>
-    <string name="set_key_accent" translatable="false">auxio_accent2</string>
+    <string name="set_key_accent" translatable="false">music_player_accent2</string>
 
-    <string name="set_key_lib_tabs" translatable="false">auxio_lib_tabs</string>
+    <string name="set_key_lib_tabs" translatable="false">music_player_lib_tabs</string>
     <string name="set_key_show_covers" translatable="false">KEY_SHOW_COVERS</string>
     <string name="set_key_quality_covers" translatable="false">KEY_QUALITY_COVERS</string>
-    <string name="set_key_round_mode" translatable="false">auxio_round_covers</string>
-    <string name="set_key_bar_action" translatable="false">auxio_bar_action</string>
+    <string name="set_key_round_mode" translatable="false">music_player_round_covers</string>
+    <string name="set_key_bar_action" translatable="false">music_player_bar_action</string>
     <string name="set_key_alt_notif_action" translatable="false">KEY_ALT_NOTIF_ACTION</string>
 
-    <string name="set_key_headset_autoplay" translatable="false">auxio_headset_autoplay</string>
-    <string name="set_key_replay_gain" translatable="false">auxio_replay_gain</string>
-    <string name="set_key_pre_amp" translatable="false">auxio_pre_amp</string>
-    <string name="set_key_pre_amp_with" translatable="false">auxio_pre_amp_with</string>
-    <string name="set_key_pre_amp_without" translatable="false">auxio_pre_amp_without</string>
+    <string name="set_key_headset_autoplay" translatable="false">music_player_headset_autoplay</string>
+    <string name="set_key_replay_gain" translatable="false">music_player_replay_gain</string>
+    <string name="set_key_pre_amp" translatable="false">music_player_pre_amp</string>
+    <string name="set_key_pre_amp_with" translatable="false">music_player_pre_amp_with</string>
+    <string name="set_key_pre_amp_without" translatable="false">music_player_pre_amp_without</string>
 
     <string name="set_key_library_song_playback_mode" translatable="false">KEY_SONG_PLAY_MODE2</string>
-    <string name="set_key_detail_song_playback_mode" translatable="false">auxio_detail_song_play_mode</string>
+    <string name="set_key_detail_song_playback_mode" translatable="false">music_player_detail_song_play_mode</string>
     <string name="set_key_keep_shuffle" translatable="false">KEY_KEEP_SHUFFLE</string>
     <string name="set_key_rewind_prev" translatable="false">KEY_PREV_REWIND</string>
     <string name="set_key_repeat_pause" translatable="false">KEY_LOOP_PAUSE</string>
 
-    <string name="set_key_save_state" translatable="false">auxio_save_state</string>
-    <string name="set_key_wipe_state" translatable="false">auxio_wipe_state</string>
-    <string name="set_key_restore_state" translatable="false">auxio_restore_state</string>
-    <string name="set_key_reindex" translatable="false">auxio_reindex</string>
-    <string name="set_key_music_dirs" translatable="false">auxio_music_dirs</string>
-    <string name="set_key_music_dirs_include" translatable="false">auxio_include_dirs</string>
-    <string name="set_key_observing" translatable="false">auxio_observing</string>
-    <string name="set_key_quality_tags" translatable="false">auxio_quality_tags</string>
+    <string name="set_key_save_state" translatable="false">music_player_save_state</string>
+    <string name="set_key_wipe_state" translatable="false">music_player_wipe_state</string>
+    <string name="set_key_restore_state" translatable="false">music_player_restore_state</string>
+    <string name="set_key_reindex" translatable="false">music_player_reindex</string>
+    <string name="set_key_music_dirs" translatable="false">music_player_music_dirs</string>
+    <string name="set_key_music_dirs_include" translatable="false">music_player_include_dirs</string>
+    <string name="set_key_observing" translatable="false">music_player_observing</string>
+    <string name="set_key_quality_tags" translatable="false">music_player_quality_tags</string>
 
     <string name="set_key_search_filter" translatable="false">KEY_SEARCH_FILTER</string>
 
-    <string name="set_key_lib_songs_sort" translatable="false">auxio_songs_sort</string>
-    <string name="set_key_lib_albums_sort" translatable="false">auxio_albums_sort</string>
-    <string name="set_key_lib_artists_sort" translatable="false">auxio_artists_sort</string>
-    <string name="set_key_lib_genres_sort" translatable="false">auxio_genres_sort</string>
+    <string name="set_key_lib_songs_sort" translatable="false">music_player_songs_sort</string>
+    <string name="set_key_lib_albums_sort" translatable="false">music_player_albums_sort</string>
+    <string name="set_key_lib_artists_sort" translatable="false">music_player_artists_sort</string>
+    <string name="set_key_lib_genres_sort" translatable="false">music_player_genres_sort</string>
 
-    <string name="set_key_detail_album_sort" translatable="false">auxio_album_sort</string>
-    <string name="set_key_detail_artist_sort" translatable="false">auxio_artist_sort</string>
-    <string name="set_key_detail_genre_sort" translatable="false">auxio_genre_sort</string>
+    <string name="set_key_detail_album_sort" translatable="false">music_player_album_sort</string>
+    <string name="set_key_detail_artist_sort" translatable="false">music_player_artist_sort</string>
+    <string name="set_key_detail_genre_sort" translatable="false">music_player_genre_sort</string>
 
     <string-array name="entries_theme">
         <item>@string/set_theme_auto</item>

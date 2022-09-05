@@ -21,12 +21,7 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Rect
 import android.util.AttributeSet
-import android.view.Gravity
-import android.view.MotionEvent
-import android.view.View
-import android.view.ViewConfiguration
-import android.view.ViewGroup
-import android.view.WindowInsets
+import android.view.*
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
 import androidx.core.view.isInvisible
@@ -34,12 +29,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import io.musicplayer.R
-import io.musicplayer.ui.recycler.AuxioRecyclerView
-import io.musicplayer.util.getDimenSize
-import io.musicplayer.util.getDrawableCompat
-import io.musicplayer.util.isRtl
-import io.musicplayer.util.isUnder
-import io.musicplayer.util.systemBarInsetsCompat
+import io.musicplayer.ui.recycler.MusicPlayerRecyclerView
+import io.musicplayer.util.*
 import kotlin.math.abs
 
 /**
@@ -70,7 +61,7 @@ import kotlin.math.abs
 class FastScrollRecyclerView
 @JvmOverloads
 constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr: Int = 0) :
-    AuxioRecyclerView(context, attrs, defStyleAttr) {
+    MusicPlayerRecyclerView(context, attrs, defStyleAttr) {
     // Thumb
     private val thumbView =
         View(context).apply {

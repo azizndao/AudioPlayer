@@ -41,6 +41,7 @@ import io.musicplayer.MainNavigationAction
 import io.musicplayer.NavigationViewModel
 import io.musicplayer.R
 import io.musicplayer.databinding.FragmentHomeBinding
+import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.home.list.AlbumListFragment
 import io.musicplayer.home.list.ArtistListFragment
 import io.musicplayer.home.list.GenreListFragment
@@ -50,7 +51,6 @@ import io.musicplayer.music.system.Indexer
 import io.musicplayer.playback.PlaybackViewModel
 import io.musicplayer.ui.DisplayMode
 import io.musicplayer.ui.Sort
-import io.musicplayer.ui.fragment.ViewBindingFragment
 import io.musicplayer.util.*
 import java.lang.reflect.Field
 import kotlin.math.abs

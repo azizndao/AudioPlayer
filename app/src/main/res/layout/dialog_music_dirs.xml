@@ -2,7 +2,7 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/Widget.Auxio.Dialog.NestedScrollView"
+    style="@style/Widget.App.Dialog.NestedScrollView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -14,7 +14,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/dirs_recycler"
-            style="@style/Widget.Auxio.RecyclerView.Linear"
+            style="@style/Widget.App.RecyclerView.Linear"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -32,12 +32,12 @@
             android:paddingBottom="@dimen/spacing_medium"
             android:text="@string/err_no_dirs"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.Auxio.LabelLarge"
+            android:textAppearance="@style/TextAppearance_App.LabelLarge"
             android:textColor="?android:attr/textColorSecondary"
             tools:visibility="gone" />
 
         <TextView
-            style="@style/Widget.Auxio.TextView.Header"
+            style="@style/Widget.App.TextView.Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/spacing_large"
@@ -62,7 +62,7 @@
 
             <Button
                 android:id="@+id/dirs_mode_exclude"
-                style="@style/Widget.Auxio.Button.Secondary"
+                style="@style/Widget.App.Button.Secondary"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,7 +70,7 @@
 
             <Button
                 android:id="@+id/dirs_mode_include"
-                style="@style/Widget.Auxio.Button.Secondary"
+                style="@style/Widget.App.Button.Secondary"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

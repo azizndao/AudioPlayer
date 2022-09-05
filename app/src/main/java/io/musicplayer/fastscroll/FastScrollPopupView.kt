@@ -18,14 +18,7 @@
 package io.musicplayer.ui.fastscroll
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.ColorFilter
-import android.graphics.Matrix
-import android.graphics.Outline
-import android.graphics.Paint
-import android.graphics.Path
-import android.graphics.PixelFormat
-import android.graphics.Rect
+import android.graphics.*
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.text.TextUtils
@@ -50,7 +43,7 @@ constructor(context: Context, attrs: AttributeSet? = null, defStyleRes: Int = 0)
         minimumWidth = context.getDimenSize(R.dimen.fast_scroll_popup_min_width)
         minimumHeight = context.getDimenSize(R.dimen.fast_scroll_popup_min_height)
 
-        TextViewCompat.setTextAppearance(this, R.style.TextAppearance_Auxio_HeadlineLarge)
+        TextViewCompat.setTextAppearance(this, R.style.TextAppearance_App_HeadlineLarge)
         setTextColor(context.getAttrColorCompat(R.attr.colorOnSecondary))
         ellipsize = TextUtils.TruncateAt.MIDDLE
         gravity = Gravity.CENTER

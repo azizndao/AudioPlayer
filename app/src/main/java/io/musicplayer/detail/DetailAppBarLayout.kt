@@ -30,12 +30,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
 import io.musicplayer.R
-import io.musicplayer.ui.AuxioAppBarLayout
+import io.musicplayer.ui.CustomAppBarLayout
 import io.musicplayer.util.lazyReflectedField
 import java.lang.reflect.Field
 
 /**
- * An [AuxioAppBarLayout] variant that also shows the name of the toolbar whenever the detail
+ * An [CustomAppBarLayout] variant that also shows the name of the toolbar whenever the detail
  * recyclerview is scrolled beyond it's first item (a.k.a the header). This is used instead of
  * CollapsingToolbarLayout since that thing is a mess with crippling bugs and state issues. This
  * just works.
@@ -44,7 +44,7 @@ import java.lang.reflect.Field
 class DetailAppBarLayout
 @JvmOverloads
 constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr: Int = 0) :
-    AuxioAppBarLayout(context, attrs, defStyleAttr) {
+    CustomAppBarLayout(context, attrs, defStyleAttr) {
     private var titleView: AppCompatTextView? = null
     private var recycler: RecyclerView? = null
 

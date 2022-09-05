@@ -126,7 +126,7 @@ class ArtistDetailFragment :
         playbackModel.play(unlikelyToBeNull(detailModel.currentArtist.value), true)
     }
 
-    override fun onShowSortMenu(anchor: View) {
+    override fun onShowSortMenu(anchor: View) =
         menu(anchor, R.menu.menu_artist_sort) {
             val sort = detailModel.artistSort
             unlikelyToBeNull(menu.findItem(sort.mode.itemId)).isChecked = true
@@ -144,7 +144,6 @@ class ArtistDetailFragment :
                 true
             }
         }
-    }
 
     private fun handleItemChange(artist: Artist?) {
         if (artist == null) {

@@ -9,7 +9,7 @@
 
     <io.musicplayer.image.StyledImageView
         android:id="@+id/disc_item"
-        style="@style/Widget.Auxio.Image.Small"
+        style="@style/Widget.App.Image.Small"
         android:scaleType="matrix"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/disc_no"
-        style="@style/Widget.Auxio.TextView.Header"
+        style="@style/Widget.App.TextView.Header"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"

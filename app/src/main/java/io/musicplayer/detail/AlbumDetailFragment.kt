@@ -90,8 +90,8 @@ class AlbumDetailFragment :
         binding.detailRecycler.adapter = null
     }
 
-    override fun onMenuItemClick(item: MenuItem): Boolean {
-        return when (item.itemId) {
+    override fun onMenuItemClick(item: MenuItem): Boolean =
+        when (item.itemId) {
             R.id.action_play_next -> {
                 playbackModel.playNext(unlikelyToBeNull(detailModel.currentAlbum.value))
                 requireContext().showToast(R.string.lng_queue_added)
@@ -108,7 +108,6 @@ class AlbumDetailFragment :
             }
             else -> false
         }
-    }
 
     override fun onItemClick(item: Item) {
         if (item is Song) {

@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <io.musicplayer.ui.recycler.AuxioRecyclerView
+    <io.musicplayer.ui.recycler.MusicPlayerRecyclerView
         android:id="@+id/queue_recycler"
-        style="@style/Widget.Auxio.RecyclerView.Linear"
+        style="@style/Widget.App.RecyclerView.Linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_queue_song" />

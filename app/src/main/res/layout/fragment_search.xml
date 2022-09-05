@@ -7,8 +7,8 @@
     android:background="?attr/colorSurface"
     android:transitionGroup="true">
 
-    <io.musicplayer.ui.AuxioAppBarLayout
-        style="@style/Widget.Auxio.AppBarLayout"
+    <io.musicplayer.ui.CustomAppBarLayout
+        style="@style/Widget.App.AppBarLayout"
         app:liftOnScroll="true"
         app:liftOnScrollTargetViewId="@id/search_recycler">
 
@@ -44,11 +44,11 @@
 
         </com.google.android.material.appbar.MaterialToolbar>
 
-    </io.musicplayer.ui.AuxioAppBarLayout>
+    </io.musicplayer.ui.CustomAppBarLayout>
 
-    <io.musicplayer.ui.recycler.AuxioRecyclerView
+    <io.musicplayer.ui.recycler.MusicPlayerRecyclerView
         android:id="@+id/search_recycler"
-        style="@style/Widget.Auxio.RecyclerView.Grid"
+        style="@style/Widget.App.RecyclerView.Grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"

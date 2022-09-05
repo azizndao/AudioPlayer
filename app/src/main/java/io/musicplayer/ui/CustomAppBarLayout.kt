@@ -35,7 +35,7 @@ import io.musicplayer.util.coordinatorLayoutBehavior
  * **Note:** This layout relies on [AppBarLayout.liftOnScrollTargetViewId] to figure out what
  * scrolling view to use. Failure to specify this will result in the layout not working.
  */
-open class AuxioAppBarLayout
+open class CustomAppBarLayout
 @JvmOverloads
 constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr: Int = 0) :
     AppBarLayout(context, attrs, defStyleAttr) {

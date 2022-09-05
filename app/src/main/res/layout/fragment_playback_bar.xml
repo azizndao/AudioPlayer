@@ -8,7 +8,7 @@
 
     <io.musicplayer.image.StyledImageView
         android:id="@+id/playback_cover"
-        style="@style/Widget.Auxio.Image.Small"
+        style="@style/Widget.App.Image.Small"
         android:layout_margin="@dimen/spacing_small"
         app:layout_constraintBottom_toTopOf="@+id/playback_progress_container"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/playback_song"
-        style="@style/Widget.Auxio.TextView.Primary.Compact"
+        style="@style/Widget.App.TextView.Primary.Compact"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_small"
@@ -31,7 +31,7 @@
 
     <TextView
         android:id="@+id/playback_info"
-        style="@style/Widget.Auxio.TextView.Secondary.Compact"
+        style="@style/Widget.App.TextView.Secondary.Compact"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/spacing_small"
@@ -59,7 +59,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/playback_play_pause"
-                style="@style/Widget.Auxio.Button.Icon.Small"
+                style="@style/Widget.App.Button.Icon.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/desc_play_pause"
@@ -67,7 +67,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/playback_secondary_action"
-                style="@style/Widget.Auxio.Button.Icon.Small"
+                style="@style/Widget.App.Button.Icon.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:icon="@drawable/ic_skip_next_24" />

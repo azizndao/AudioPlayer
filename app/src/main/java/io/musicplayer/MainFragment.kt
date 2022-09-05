@@ -32,12 +32,12 @@ import com.google.android.material.bottomsheet.NeoBottomSheetBehavior
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.transition.MaterialFadeThrough
 import io.musicplayer.databinding.FragmentMainBinding
+import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.music.Music
 import io.musicplayer.music.Song
 import io.musicplayer.playback.PlaybackSheetBehavior
 import io.musicplayer.playback.PlaybackViewModel
 import io.musicplayer.playback.queue.QueueSheetBehavior
-import io.musicplayer.ui.fragment.ViewBindingFragment
 import io.musicplayer.util.*
 import kotlin.math.max
 import kotlin.math.min

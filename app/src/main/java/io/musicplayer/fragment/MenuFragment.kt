@@ -26,6 +26,7 @@ import androidx.viewbinding.ViewBinding
 import io.musicplayer.MainNavigationAction
 import io.musicplayer.NavigationViewModel
 import io.musicplayer.R
+import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.music.Album
 import io.musicplayer.music.Artist
 import io.musicplayer.music.Genre

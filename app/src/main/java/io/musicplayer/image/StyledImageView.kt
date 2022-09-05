@@ -33,11 +33,7 @@ import coil.dispose
 import coil.load
 import com.google.android.material.shape.MaterialShapeDrawable
 import io.musicplayer.R
-import io.musicplayer.music.Album
-import io.musicplayer.music.Artist
-import io.musicplayer.music.Genre
-import io.musicplayer.music.Music
-import io.musicplayer.music.Song
+import io.musicplayer.music.*
 import io.musicplayer.settings.Settings
 import io.musicplayer.util.getColorCompat
 import io.musicplayer.util.getDrawableCompat

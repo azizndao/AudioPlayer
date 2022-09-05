@@ -6,7 +6,7 @@
     Hacks around the incorrectly-sized navigation icon in the Toolbar, changing it from
     56dp to 48dp.
     -->
-    <style name="Widget.Auxio.Toolbar.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+    <style name="Widget.App.Toolbar.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
         <item name="android:minWidth">@dimen/size_btn</item>
     </style>
 
@@ -14,7 +14,7 @@
     Hacks around the old overflow button that was deliberately downsized to 36dp
     (presumably for compat with older devices)
     -->
-    <style name="Widget.Auxio.Button.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+    <style name="Widget.App.Button.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
         <item name="android:minWidth">@dimen/size_btn</item>
         <item name="android:minHeight">@dimen/size_btn</item>
         <item name="android:paddingStart">0dp</item>
@@ -22,16 +22,16 @@
     </style>
 
     <style name="Theme.App.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
-        <item name="android:checkedTextViewStyle">@style/Widget.Auxio.Dialog.CheckedTextView</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.App.Dialog.CheckedTextView</item>
     </style>
 
     <!-- The style for the checked text view in the custom dialog -->
-    <style name="Widget.Auxio.Dialog.CheckedTextView" parent="Widget.Material3.CheckedTextView">
+    <style name="Widget.App.Dialog.CheckedTextView" parent="Widget.Material3.CheckedTextView">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
     <!-- Dialog style that properly implements dividers in a NestedScrollView -->
-    <style name="Widget.Auxio.Dialog.NestedScrollView" parent="">
+    <style name="Widget.App.Dialog.NestedScrollView" parent="">
         <item name="android:overScrollMode">never</item>
         <item name="android:paddingTop">@dimen/spacing_medium</item>
 
@@ -62,30 +62,30 @@
     </style>
 
     <!-- Widget TextView that mimics the main Auxio Primary/Secondary TextViews. -->
-    <style name="Widget.Auxio.TextView.AppWidget" parent="Widget.Auxio.TextView.Base">
+    <style name="Widget.App.TextView.AppWidget" parent="Widget.App.TextView.Base">
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">end</item>
     </style>
 
     <!-- Widget TextView that mimics the main Auxio Primary TextView -->
-    <style name="Widget.Auxio.TextView.Primary.AppWidget" parent="Widget.Auxio.TextView.AppWidget">
+    <style name="Widget.App.TextView.Primary.AppWidget" parent="Widget.App.TextView.AppWidget">
         <item name="android:textAppearance">@style/TextAppearance.Material3.TitleMedium</item>
     </style>
 
     <!-- Widget TextView that mimics the main Auxio Secondary TextView -->
-    <style name="Widget.Auxio.TextView.Secondary.AppWidget" parent="Widget.Auxio.TextView.AppWidget">
+    <style name="Widget.App.TextView.Secondary.AppWidget" parent="Widget.App.TextView.AppWidget">
         <item name="android:textColor">?android:attr/textColorSecondary</item>
         <item name="android:textAppearance">@style/TextAppearance.Material3.BodyMedium</item>
     </style>
 
     <!-- A variant of PlaybackButton that plays along with AppWidget restrictions. -->
-    <style name="Widget.Auxio.MaterialButton.AppWidget" parent="Widget.AppCompat.Button.Borderless">
+    <style name="Widget.App.MaterialButton.AppWidget" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:minHeight">@dimen/size_btn</item>
         <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
     </style>
 
     <!-- A variant of button that emulates a FAB-ish button that plays along with widget restrictions -->
-    <style name="Widget.Auxio.MaterialButton.AppWidget.PlayPause" parent="Widget.AppCompat.Button.Borderless">
+    <style name="Widget.App.MaterialButton.AppWidget.PlayPause" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:minWidth">@dimen/size_btn</item>
         <item name="android:background">@drawable/ui_remote_fab_container_paused</item>
         <item name="android:tint">?attr/colorOnPrimary</item>
