@@ -59,7 +59,7 @@
     <string name="lbl_code">Github에서 보기</string>
     <string name="lbl_faq">FAQ</string>
     <string name="lbl_licenses">라이선스</string>
-    <string name="lng_author">OxygenCobalt 개발</string>
+    <string name="lng_author">Abdou Aziz Ndao 개발</string>
     <string name="lbl_library_counts">라이브러리 통계</string>
 
     <!-- Settings namespace | Settings-related labels -->

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package io.musicplayer.fragment
+package io.musicplayer.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

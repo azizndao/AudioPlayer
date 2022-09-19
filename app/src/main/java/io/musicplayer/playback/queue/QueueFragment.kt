@@ -26,9 +26,9 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import io.musicplayer.databinding.FragmentQueueBinding
-import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.music.Song
 import io.musicplayer.playback.PlaybackViewModel
+import io.musicplayer.ui.fragment.ViewBindingFragment
 import io.musicplayer.util.androidActivityViewModels
 import io.musicplayer.util.collectImmediately
 import io.musicplayer.util.logD

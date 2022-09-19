@@ -24,6 +24,7 @@ import io.musicplayer.music.Album
 import io.musicplayer.music.Artist
 import io.musicplayer.music.Genre
 import io.musicplayer.music.Song
+import io.musicplayer.recycler.MusicPlayerRecyclerView
 import io.musicplayer.ui.recycler.AlbumViewHolder
 import io.musicplayer.ui.recycler.ArtistViewHolder
 import io.musicplayer.ui.recycler.GenreViewHolder
@@ -32,7 +33,6 @@ import io.musicplayer.ui.recycler.HeaderViewHolder
 import io.musicplayer.ui.recycler.IndicatorAdapter
 import io.musicplayer.ui.recycler.Item
 import io.musicplayer.ui.recycler.MenuItemListener
-import io.musicplayer.ui.recycler.MusicPlayerRecyclerView
 import io.musicplayer.ui.recycler.SimpleItemCallback
 import io.musicplayer.ui.recycler.SongViewHolder
 

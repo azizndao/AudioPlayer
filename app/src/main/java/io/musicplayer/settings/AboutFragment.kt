@@ -31,18 +31,13 @@ import com.google.android.material.transition.MaterialFadeThrough
 import io.musicplayer.BuildConfig
 import io.musicplayer.R
 import io.musicplayer.databinding.FragmentAboutBinding
-import io.musicplayer.fragment.ViewBindingFragment
 import io.musicplayer.home.HomeViewModel
 import io.musicplayer.music.Album
 import io.musicplayer.music.Artist
 import io.musicplayer.music.Genre
 import io.musicplayer.music.Song
-import io.musicplayer.util.androidActivityViewModels
-import io.musicplayer.util.collectImmediately
-import io.musicplayer.util.formatDurationMs
-import io.musicplayer.util.logD
-import io.musicplayer.util.showToast
-import io.musicplayer.util.systemBarInsetsCompat
+import io.musicplayer.ui.fragment.ViewBindingFragment
+import io.musicplayer.util.*
 
 /**
  * A [BottomSheetDialogFragment] that shows Auxio's about screen.
@@ -160,7 +155,7 @@ class AboutFragment : ViewBindingFragment<FragmentAboutBinding>() {
     }
 
     companion object {
-        private const val LINK_CODEBASE = "https://github.com/oxygencobalt/Auxio"
+        private const val LINK_CODEBASE = "https://github.com/azizndao/AudioPlayer"
         private const val LINK_FAQ = "$LINK_CODEBASE/blob/master/info/FAQ.md"
         private const val LINK_LICENSES = "$LINK_CODEBASE/blob/master/info/LICENSES.md"
     }

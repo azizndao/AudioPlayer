@@ -46,7 +46,7 @@
 
     </io.musicplayer.ui.CustomAppBarLayout>
 
-    <io.musicplayer.ui.recycler.MusicPlayerRecyclerView
+    <io.musicplayer.recycler.MusicPlayerRecyclerView
         android:id="@+id/search_recycler"
         style="@style/Widget.App.RecyclerView.Grid"
         android:layout_width="match_parent"

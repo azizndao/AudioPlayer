@@ -2,11 +2,11 @@
 <h1 align="center"><b>Auxio</b></h1>
 <h4 align="center">A simple, rational music player for android.</h4>
 <p align="center">
-    <a href="https://github.com/oxygencobalt/Auxio/releases/tag/v2.6.3">
+    <a href="https://github.com/azizndao/AudioPlayer/releases/tag/v2.6.3">
         <img alt="Latest Version" src="https://img.shields.io/static/v1?label=tag&message=v2.6.3&color=0D5AF5">
     </a>
-    <a href="https://github.com/oxygencobalt/Auxio/releases/">
-        <img alt="Releases" src="https://img.shields.io/github/downloads/OxygenCobalt/Auxio/total.svg">
+    <a href="https://github.com/azizndao/AudioPlayer/releases/">
+        <img alt="Releases" src="https://img.shields.io/github/downloads/azizndao/AudioPlayer/total.svg">
     </a>
     <a href="https://www.gnu.org/licenses/gpl-3.0">
         <img src="https://img.shields.io/badge/license-GPL%20v3-blue.svg">

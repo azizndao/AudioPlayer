@@ -20,6 +20,7 @@
         android:id="@+id/playback_cover"
         style="@style/Widget.App.Image.Full"
         android:layout_margin="@dimen/spacing_medium"
+        app:cornerRadius="@dimen/size_corners_mid_large"
         app:layout_constraintBottom_toTopOf="@+id/playback_song"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

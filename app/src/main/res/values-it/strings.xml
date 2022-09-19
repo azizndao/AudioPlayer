@@ -42,7 +42,7 @@
     <string name="lbl_code">Vedi su Github</string>
     <string name="lbl_faq">FAQ</string>
     <string name="lbl_licenses">Licenze</string>
-    <string name="lng_author">Sviluppato da OxygenCobalt</string>
+    <string name="lng_author">Sviluppato da Abdou Aziz Ndao</string>
     <string name="lbl_library_counts">Statistiche libreria</string>
     <!-- Settings namespace | Settings-related labels -->
     <string name="set_title">Opzioni</string>

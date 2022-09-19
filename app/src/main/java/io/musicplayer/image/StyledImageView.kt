@@ -97,7 +97,11 @@ constructor(context: Context, attrs: AttributeSet? = null, @AttrRes defStyleAttr
 
         useLargeIcon = styledAttrs.getBoolean(R.styleable.StyledImageView_useLargeIcon, false)
 
-        cornerRadius = styledAttrs.getDimension(R.styleable.StyledImageView_cornerRadius, 0f)
+        cornerRadius =
+            styledAttrs.getDimension(
+                R.styleable.StyledImageView_cornerRadius,
+                resources.getDimensionPixelSize(R.dimen.rounded_image).toFloat(),
+            )
         styledAttrs.recycle()
     }
 

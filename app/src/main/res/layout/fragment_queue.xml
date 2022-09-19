@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <io.musicplayer.ui.recycler.MusicPlayerRecyclerView
+    <io.musicplayer.recycler.MusicPlayerRecyclerView
         android:id="@+id/queue_recycler"
         style="@style/Widget.App.RecyclerView.Linear"
         android:layout_width="match_parent"

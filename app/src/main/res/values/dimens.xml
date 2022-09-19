@@ -16,9 +16,9 @@
     <dimen name="size_cover_mid_huge">192dp</dimen>
     <dimen name="size_cover_huge">256dp</dimen>
 
-    <dimen name="size_corners_small">8dp</dimen>
-    <dimen name="size_corners_medium">16dp</dimen>
-    <dimen name="size_corners_mid_large">24dp</dimen>
+    <dimen name="size_corners_small">12dp</dimen>
+    <dimen name="size_corners_medium">24dp</dimen>
+    <dimen name="size_corners_mid_large">32dp</dimen>
 
     <dimen name="size_btn">48dp</dimen>
     <dimen name="size_accent_item">56dp</dimen>
@@ -50,4 +50,5 @@
 
     <dimen name="widget_width_def">180dp</dimen>
     <dimen name="widget_height_def">100dp</dimen>
+    <dimen name="rounded_image">16dp</dimen>
 </resources>

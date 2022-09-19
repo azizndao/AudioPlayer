@@ -21,7 +21,7 @@
 
     </io.musicplayer.detail.DetailAppBarLayout>
 
-    <io.musicplayer.ui.recycler.MusicPlayerRecyclerView
+    <io.musicplayer.recycler.MusicPlayerRecyclerView
         android:id="@+id/detail_recycler"
         style="@style/Widget.App.RecyclerView.Grid"
         android:layout_width="match_parent"

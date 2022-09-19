@@ -87,8 +87,8 @@
             android:id="@+id/playback_progress_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/spacing_small"
-            android:layout_marginEnd="@dimen/spacing_small"
+            app:trackCornerRadius="0dp"
+            app:trackThickness="1.5dp"
             tools:progress="70" />
 
     </io.musicplayer.playback.ForcedLTRFrameLayout>

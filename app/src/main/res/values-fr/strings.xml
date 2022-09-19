@@ -27,7 +27,7 @@
     <string name="lbl_code">Voir sur GitHub</string>
     <string name="lbl_faq">FAQ</string>
     <string name="lbl_licenses">Licences</string>
-    <string name="lng_author">Développé par OxygenCobalt</string>
+    <string name="lng_author">Développé par Abdou Aziz Ndao</string>
     <!-- Settings namespace | Settings-related labels -->
     <string name="set_title">Paramètres</string>
     <string name="set_ui">Apparence</string>

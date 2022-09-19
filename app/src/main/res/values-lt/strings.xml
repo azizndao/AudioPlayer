@@ -129,7 +129,7 @@
     <string name="lbl_live_group">Gyvai</string>
     <string name="set_headset_autoplay_desc">Visada pradėta groti, kai prijungtos ausinės (gali veikti ne visuose įrenginiuose)</string>
     <string name="cdc_ogg">Ogg Garsas</string>
-    <string name="lng_author">Sukūrė OxygenCobalt</string>
+    <string name="lng_author">Sukūrė Abdou Aziz Ndao</string>
     <string name="set_replay_gain_track">Pageidaujamas takelis</string>
     <string name="err_no_dirs">Jokių aplankų</string>
     <string name="err_bad_dir">Šis aplankas nepalaikomas</string>

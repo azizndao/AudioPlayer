@@ -29,7 +29,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import io.musicplayer.R
-import io.musicplayer.ui.recycler.MusicPlayerRecyclerView
+import io.musicplayer.recycler.MusicPlayerRecyclerView
 import io.musicplayer.util.*
 import kotlin.math.abs
 

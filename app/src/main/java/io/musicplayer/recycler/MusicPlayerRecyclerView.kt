@@ -15,7 +15,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
-package io.musicplayer.ui.recycler
+package io.musicplayer.recycler
 
 import android.content.Context
 import android.graphics.Rect
